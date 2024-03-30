@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
+
 </head>
+
 <body>
-
-  <div id="left-decoration">
-
+  <div class="gradient-panel"></div>
+  <div class="panel-wrapper">
+    <div class="gradient-panel-light"></div>
   </div>
+  <main>
+    <div class="mobile">
+      <div class="mobile_top-part">
+        <div class="mobile_top-part_notch"></div>
+        <div class="flex">
+          <picture><img class="arrow" src="images/left-arrow.png" alt="arrow"></picture>
+          <picture><img class="avatar" src="images/avatar.jpg" alt="avatar"></picture>
+          <div>
+            <h2>Samuel Green</h2>
+            <small>Available to Walk</small>
+          </div>
+        </div>
+        <picture><img class="dots" src="images/dots.png" alt="dots"></picture>
+      </div>
+      <div class="mobile_bottom-part">
+        <p class="message-received">That sounds great. I’d be happy with that.</p>
 
-  <div id="phone">
-    <div id="camera-bar"></div>
+        <p class="message-received">Could you send over some pictures of your dog, please?</p>
+        <div class="photos">
+          <img class="photos-sent" src="images/dog-image-1.jpg" alt="dog1">
+          <img class="photos-sent" src="images/dog-image-2.jpg" alt="dog2">
+          <img class="photos-sent" src="images/dog-image-3.jpg" alt="dog3">
+        </div>
+        <div class="flex-end">
+          <p class="message-sent">Here are a few pictures. She’s a happy girl!</p>
+          <p class="message-sent">Can you make it?</p>
+        </div>
+        <p class="message-received">She looks so happy! The time we discussed works. How long shall I take her out for?
+        </p>
 
-    <div id="profile-bar">
-      <div id="back-icon"></div>
-      <div id="profile-icon"></div>
-      <div id="profile-text"></div>
-      <div id="three-dots"></div>
+        <div class="walk-offer">
+          <div class="flex-row">
+            <div class="circle"></div>
+            <p class="walk-offer_text">30 minute walk </p>
+          </div>
+          <span>$29</span>
+        </div>
+
+        <div class="walk-offer">
+          <div class="flex-row">
+            <div class="circle"></div>
+            <p class="walk-offer_text">1 hour walk</p>
+          </div>
+          <span>$49</span>
+        </div>
+
+        <div class="input">
+          <p>Type a message…</p>
+          <div class="button"></div>
+        </div>
+      </div>
     </div>
+    <div class="text">
+      <h1>Simple booking</h1>
 
-    <div class="grey-message"></div>
-    <div class="picture-message"></div>
-    <div class="white-message"></div>
-    <div class="gradient-message"></div>
-
-    <div id="type-message-bar">
-      <div id="type-message"></div>
-      <div id="send-icon"></div>
+      <p class="main-text">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
     </div>
-
-  </div>
-
-  <div id="text">
-    <h1>Simple booking</h1>
-    <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
-  </div>
-
-  Samuel Green
-  Available to Walk
-
-  That sounds great. I'd be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She's a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
+  </main>
 </body>
+
 </html>
