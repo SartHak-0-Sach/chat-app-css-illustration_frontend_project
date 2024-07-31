@@ -291,6 +291,20 @@ h1 {
     align-items: center;
 }
 
+/* Footer */
+.attribution {
+    position: absolute;
+    bottom: .8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 
 @media (max-width:1000px) {
     main {
