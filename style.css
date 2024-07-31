@@ -294,7 +294,6 @@ h1 {
 /* Footer */
 .attribution {
     left: 50%;
-    transform: translateX(-30%);
     font-size: 11px;
     text-align: center;
 }
